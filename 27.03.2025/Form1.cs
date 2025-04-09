@@ -104,15 +104,6 @@ namespace _27._03._2025
                 }
             }
 
-            // Добавление новой головы
-            //Tail.Enqueue(new Point(xt, yt));
-
-
-
-
-
-
-
             foreach (Point l in Tail)
             {
                 richTextBox1.Text = l.X+" - "+l.Y;
