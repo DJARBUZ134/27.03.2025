@@ -86,7 +86,7 @@ namespace _27._03._2025
                     case Keys.D: DrawSquare(1 , 0, speed); break;
                 }
             // Проверка на выход за границы игрового поля
-            if (xt < 0 || xt >= pictureBox1.Width || yt < 0 || yt >= pictureBox1.Height)
+            if (x0 < 0 || x0 >= pictureBox1.Width || y0 < 0 || y0 >= pictureBox1.Height) // исправлена ошибка с границами
             {
                 GameOver(); // Конец игры
                 return;
